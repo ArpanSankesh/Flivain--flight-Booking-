@@ -1,10 +1,128 @@
+@font-face {
+    font-family: 'NeueHaasDisplay-Mediu' ;
+    src: url('font/64d3dd9edfb41666c35b15bf_NeueHaasDisplay-Mediu\ \(2\).ttf');
+}
+@font-face {
+    font-family: 'NeueHaasDisplay-Roman' ;
+    src: url('font/64d3dd9edfb41666c35b15c0_NeueHaasDisplay-Roman.ttf');
+}
+
+:root{
+    --font-color:#000000;
+    --greyFont-color:#777E90;
+    --base-color:#F1F5F5;
+    --primary-color:#3E5CB8;
+    --accent1-color:#E98B6D;
+    --accent2-color:#FFCEA2;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'NeueHaasDisplay-Mediu';
+    color: var(--font-color);
 }
 
 body{
     width: 100%;
     height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+.section-1{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.nav-bar{
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+
+}
+
+.logo {
+    width: 20%;
+    line-height: 1.566rem;
+    cursor: pointer;
+}
+
+.logo h1{
+    font-size: 2.6rem;
+}
+
+.logo p{
+    font-size: 0.8rem;
+    color: var(--greyFont-color);
+}
+
+.main-nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color:var(--greyFont-color);
+    font-size: 1rem;
+    font-weight: 800;
+    transition: ease 0.1s;
+    padding-bottom: 0.6rem;
+}
+
+.main-nav a:hover{
+    color: var(--font-color);
+    border-bottom: 2px solid var(--font-color);
+}
+
+.nav-right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-btn{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    padding: 1vw 15vw;
+    /* display: flex; */
+}
+
+.hero-info{
+    width: 100%;
+    height: 20%;
+    /* background-color: rebeccapurple; */
+
+}
+
+.hero-info h1{
+    text-transform: capitalize;
+    font-family: 'NeueHaasDisplay-Roman';
+    font-size:4.5rem;
+    text-align: center;
 }
