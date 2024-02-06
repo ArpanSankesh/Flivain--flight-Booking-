@@ -156,6 +156,7 @@ body{
     padding: 3vw 5vw;
     gap: 4vw;
     border-radius:2vw;
+    margin-bottom: 6vw;
 }
 
 .flight-class{
@@ -166,6 +167,7 @@ body{
     align-items: center;
     justify-content: space-around;
     border-radius:1.2vw;
+    margin-bottom: 2vw;
     
 }
 
@@ -316,6 +318,7 @@ body{
     height: 100%;
     /* background-color: rgb(173, 217, 255); */
     display: flex;
+    padding-left: 2vw;
 }
 .section2-right .img{
     /* position: absolute; */
@@ -327,6 +330,8 @@ body{
 
 .section2-right .img1{
     z-index: 3;
+    width: 17vw;
+    height: 30vw;
     background: url('asset/chad-peltola-Rch8oP-O5sU-unsplash.jpg');
     background-size: cover;
     /* border: 1rem solid #fff; */
@@ -337,10 +342,12 @@ body{
     margin-top: -7rem;
     background: url('asset/ross-parmly-rf6ywHVkrlY-unsplash.jpg');
     background-size: cover;
-    border: 1rem solid #fff;
 }
 .section2-right .img3{
     margin-left: -8rem;
+    margin-top: 8rem;
+    width: 15vw;
+    height: 20vw;
     background: url('asset/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
     background-size: cover;
 }
