@@ -121,7 +121,7 @@ body::-webkit-scrollbar{
     padding: 1vw 8vw;
     display: flex;
     flex-direction: column;
-    gap: 6vw;
+    gap: 5vw;
 }
 
 .hero-info{
@@ -361,6 +361,11 @@ body::-webkit-scrollbar{
     height: 20vw;
     background: url('asset/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
     background-size: cover;
+}
+
+.section-3{
+    width: 100%;
+    min-height: 100vh; 
 }
 
 
