@@ -368,6 +368,7 @@ body::-webkit-scrollbar{
     min-height: 100vh; 
     padding: 5vw 8vw;
     background-color: var(--base-color);
+    background-color: rgb(242, 248, 248);
 }
 
 .section3-header{
@@ -375,6 +376,7 @@ body::-webkit-scrollbar{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    margin-bottom: 5vw;
 }
 
 .section3-header h1{
@@ -391,12 +393,62 @@ body::-webkit-scrollbar{
     outline: none;
     border-radius: 3rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .section3-content-container{
     width: 100%;
     height: 100%;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.section3-content{
+    width: 30%;
+    height: 60%;
+    padding: 8vw 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    border-radius: 10rem;
+    background-color: #fff;
+    /* box-shadow: 0.2px 0.2px 50px var(--greyFont-color); */
+}
+
+.circle{
+    width:8vw;
+    height: 8vw;
+    padding: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: var(--primary-color);
+}
+
+.section3-content:nth-child(2) .circle{
+    background-color: var(--accent1-color);
+}
+.section3-content:nth-child(3) .circle{
+    background-color: var(--accent2-color);
+}
+
+.section3-content h4{
+    font-size: 2rem;
+}
+.section3-content p{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'NeueHaasDisplay-Roman';
+    font-weight: 200;
+    color: var(--greyFont-color);
+    line-height: 1.5rem;
+}
+
+
 
 
