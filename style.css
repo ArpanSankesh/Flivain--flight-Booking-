@@ -449,6 +449,49 @@ body::-webkit-scrollbar{
     line-height: 1.5rem;
 }
 
+.section-4{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.sec4-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.sec4-img{
+    width: 25vw ;
+    height: 36vw;
+    border-radius: 15vw;
+}
+
+.sec4-img1{
+    background: url('asset/hanson-lu-FT2WwbS1LJQ-unsplash.jpg');
+    background-size: cover;
+    margin-left: 30%;
+}
+.sec4-img2{
+    background: url('asset/lukas-souza-5KRFOTnpnnY-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 19vw ;
+    height: 27vw;
+    margin-left: -26%;
+    margin-top: 30%;
+
+}
+
+.sec4-right{
+    width: 50%;
+    height: 100%;
+}
+
+
 
 
 
