@@ -453,7 +453,7 @@ body::-webkit-scrollbar{
     width: 100%;
     min-height: 100vh;
     display: flex;
-    padding-top: 10vw;
+    padding-top: 8vw;
     /* align-items: center; */
     justify-content: space-around;
     
@@ -504,17 +504,18 @@ body::-webkit-scrollbar{
 
 .sec4-content{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sec4-content-info{
     width: 40%;
+    margin: 2vw 2vw 2vw 0;
 }
 
 .sec4-content-info p{
     margin-top: 1vw;
     color: var(--greyFont-color);
-    font-family: 'NeueHaasDisplay-Roman';
-    font-weight: 200;
     line-height: 1.6rem;
 
 
