@@ -517,8 +517,10 @@ body::-webkit-scrollbar{
     margin-top: 1vw;
     color: var(--greyFont-color);
     line-height: 1.6rem;
+}
 
-
+@media screen {
+    
 }
 
 
