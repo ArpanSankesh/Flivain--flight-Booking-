@@ -153,6 +153,7 @@ body::-webkit-scrollbar{
     letter-spacing: 0.05rem;
     cursor: pointer;
     margin-top: 2vw;
+    
     display: none;
 }
 
