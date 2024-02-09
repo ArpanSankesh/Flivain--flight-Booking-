@@ -114,6 +114,19 @@ body::-webkit-scrollbar{
     letter-spacing: 0.05rem;
     cursor: pointer;
 }
+.menu-btn{
+    width: 10vw;
+    height: 4vw;
+    border-radius: 2vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    color: var(--font-color);
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
 
 .hero{
     width: 100%;
@@ -815,15 +828,15 @@ line-height: 1.2rem;
     width: 79%;
     padding: 1vw 8vw;
 }
-.sec4-right{
-    width: 100%;
-    padding: 5vw;
+.sec4-heading h1 {
+    font-size: 2rem;
 }
-.sec4-left{
-    /* display: none; */
+.sec4-content-info h2 {
+    font-size: 1rem;
 }
-.sec4-content-info {
-    width: 45%;
+.sec4-content-info p {
+    font-size: 0.7rem;
+    line-height: 1rem;
 }
 }
 
