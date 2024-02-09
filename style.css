@@ -772,8 +772,6 @@ line-height: 1.2rem;
 
 @media (max-width:650px) {
     
-    
-
     .logo h1{
         font-size: 1.5rem;
     }
@@ -877,13 +875,13 @@ line-height: 1.2rem;
 }
 }
 
-@media (max-width:450px) {
+@media (max-width:450px ){
 
     .logo h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .logo p {
-        font-size:0.45rem;
+        font-size:0.35rem;
     }
     .nav-bar{
         height: 10vw;
@@ -891,9 +889,18 @@ line-height: 1.2rem;
     .ham-menu{
     top: -200vw;
     }
+    .nav-bar{
+        height: 12vw;
+    }
+    .menu-btn{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+    
 
     .hero-info {
-        margin-top: 3vw;
+        margin-top: 10vw;
     }
 
     .hero-content {
@@ -919,7 +926,7 @@ line-height: 1.2rem;
     }
 
 .section-1 {
-    min-height: 89vh;
+    min-height: 60vh;
 }
 .section-2-heading h1 {
     font-size: 1.5rem;
