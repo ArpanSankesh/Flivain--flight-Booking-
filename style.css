@@ -728,6 +728,9 @@ font-size:1.2rem ;
 font-size:0.8rem ;
 line-height: 1.2rem;
 }
+.menu-btn{
+    display: none;
+}
 
 }
 
@@ -752,17 +755,19 @@ line-height: 1.2rem;
     .section3-content p {
         font-size: 0.8rem;
         line-height: 1.2rem;
+    
+    }
+    .main-nav{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
     }
 }
 
 @media (max-width:650px) {
-    .main-nav{
-        display: none;
-    }
     
-    .nav-btn{
-        display: none;
-    }
+    
 
     .logo h1{
         font-size: 1.5rem;
