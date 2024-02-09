@@ -765,6 +765,9 @@ line-height: 1.2rem;
     .nav-btn{
         display: none;
     }
+    .menu-btn{
+        display: block;
+    }
 }
 
 @media (max-width:650px) {
