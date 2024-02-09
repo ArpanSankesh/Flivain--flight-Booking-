@@ -519,9 +519,29 @@ body::-webkit-scrollbar{
     line-height: 1.6rem;
 }
 
-@media screen {
+@media (max-width:1300px) {
+    .section-2-heading h1{
+        font-size: 4.2rem;
+    }
     
+    .sec4-heading h1 {
+    font-size: 4rem;
+    margin-bottom: 2vw;
 }
+
+.logo h1{
+    font-size: 2rem;
+}
+
+.logo p{
+    font-size: 0.6rem;
+}
+
+.logo {
+    line-height: 1.2rem;
+}
+}
+
 
 
 
